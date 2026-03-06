@@ -21,7 +21,7 @@ int main(){
     sort(vec.begin(), vec.end());
 
     int resposta = 0;
-    if (!vec.empty() && (vec[vec.size() - 1] > first)){
+    if (!vec.empty() && (vec[vec.size() - 1] >= first)){
         resposta = vec[vec.size() - 1] + 1 - first;
     }
     
